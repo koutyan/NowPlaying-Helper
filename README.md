@@ -8,7 +8,7 @@ Mac環境においてiTunes以外の楽曲再生ソフト(私の場合はVOX)で
 
 I created this as an alternative to the current lack of an easy way to post NowPlaying on Mac environment when listening songs with a software other than iTunes (VOX in my case). It can be used on any OS.
 
-楽曲情報をクリップボードにコピーして本プログラムを実行すると、NowPlayingタグをつけて整形したテキストを生成し、クリップボードに保存する。これを貼り付けてツイートするなりFaceｂook投稿するなりすれば良い。
+楽曲情報をクリップボードにコピーして本プログラムを実行すると、NowPlayingタグをつけて整形したテキストを生成し、クリップボードに保存する。これを貼り付けてツイートするなりFacebook投稿するなりすれば良い。
 
 If you copy the song information to the clipboard and run this program, it will generate a formatted text with NowPlaying tag and save it to the clipboard. You can then paste it into a tweet or post it on Facebook.
 
