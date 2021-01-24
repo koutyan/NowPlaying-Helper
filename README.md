@@ -12,6 +12,10 @@ I created this as an alternative to the current lack of an easy way to post NowP
 
 If you copy the song information to the clipboard and run this program, it will generate a formatted text with NowPlaying tag and save it to the clipboard. You can then paste it into a tweet or post it on Facebook.
 
+v1.1からは、自動ツイート機能にも対応した。自身のアクセストークンを設定ファイルに記述すると、自動でツイートされるようになる。
+
+From v1.1, the automatic tweeting function is also supported. If you enter your own access token in the configuration file, you will be able to tweet automatically.
+
 現状、VOXに最適化した設計となっているが、状況に応じて対応ソフトを拡充予定。
 
 Currently, it is designed to be optimized for VOX, but there are plans to expand the compatible software depending on the situation.
@@ -35,21 +39,41 @@ Currently, it is designed to be optimized for VOX, but there are plans to expand
   ### If the version information of pip is displayed, it is OK.
   ```
 
+* If use auto tweet function, edit `nph_config.py`
+
+  ```(text)
+  # Auto tweet setting. (enable = 1, disable = 0)
+  AUTO_TWEET = 0
+
+  # Enter your twitter token.
+  ACCESS_TOKEN = ""
+  ACCESS_TOKEN_SECRET = ""
+  API_KEY = ""
+  API_SECRET = ""
+  ```
+
+  * Obtain your own access token in advance.
+  ![twitter_accesstoken](https://apps.kosukelab.com/images/nowplaying-helper/img00.png)
+
 ## How to use
 
-* Execute the following command for the first use only.
+* Execute the following command for **the first use only**.
   
   ```(texy)
   $ pip install -r requirements.txt
   ```
 
 * Copy the song information, then run this program on Terminal.app
-  
+
+  ![copy_clipboard](https://apps.kosukelab.com/images/nowplaying-helper/img01.png)
+
   ```(text)
   $ python3 nowplaying.py
   ```
 
-* The text will be saved to the clipboard and you can post it.
+* The text will be saved to the clipboard and you can post it. If you enable auto tweet function, auto-tweeting is also confirmed. (Twitter user screen name and tweeted text are printed.)
+  
+  ![auto_tweet](https://apps.kosukelab.com/images/nowplaying-helper/img02.png)
 
 ## Donate
 
