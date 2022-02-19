@@ -74,9 +74,3 @@ Currently, it is designed to be optimized for VOX, but there are plans to expand
 * The text will be saved to the clipboard and you can post it. If you enable auto tweet function, auto-tweeting is also confirmed. (Twitter user screen name and tweeted text are printed.)
   
   ![auto_tweet](https://apps.kosukelab.com/images/nowplaying-helper/img02.png)
-
-## Donate
-
-* Bitcoin (BTC) : `3DNbg5HHP5WMX9kNqpGZm3QP731cHxMqDs`
-* Ethereum (ETH) : `0xb6E6260ed00044De7f5DC6cFbE6261d1c5fB37D2`
-* Ripple (XRP) : `rLyDwmsfT7whYmENkh8kKQQc7eahZk1xPB`
